@@ -5,7 +5,8 @@ while ( money <= 0 || isNaN(money)) {
     money = +prompt('Enter USD you want to exchange');   
 }
 
-let a = prompt('Enter currency: EUR, UAH, AZN');
+let a = prompt('Enter currency: EUR, UAH, AZN').toUpperCase();
+
 let b;
 
 switch (a) {
